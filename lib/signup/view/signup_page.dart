@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:quick_wheels/signup/view/signupRepo.dart';
 
 class Signup extends StatelessWidget {
    Signup({super.key});
@@ -18,7 +19,7 @@ final _formkey = GlobalKey<FormState>();
     return Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/new.jpg'),
+          image: AssetImage('assets/images/new.jpg'),
           fit: BoxFit.cover,
         ),
       ),
@@ -161,11 +162,16 @@ final _formkey = GlobalKey<FormState>();
                                 child: ElevatedButton(
                                   onPressed: () async {
                                     if(_formkey.currentState!.validate()){
-                                       _firstNameController.text;
-                                       _secondNameController.text;
-                                       _emailController.text;
-                                       _passwordController.text;
-                                       _confirmPasswordController.text;
+                                      await SignupReppo().createUser(
+                                        
+                                      _emailController.text,
+                                      _passwordController.text,
+                                      context,
+                                      _firstNameController.text,
+                                        _secondNameController.text,
+                                      _confirmPasswordController.text
+                                      
+                                     );
                                     }
                                   },
                                   child: const Text('REGISTER'),

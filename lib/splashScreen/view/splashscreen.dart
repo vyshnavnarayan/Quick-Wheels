@@ -34,7 +34,7 @@ class _SplashPageState extends State<SplashPage> {
             child: Image(
                 height: 200,
                 width: 250,
-                image: AssetImage('assets/logobus.png')),
+                image: AssetImage('assets/images/logobus.png')),
                 
           ),
         );
