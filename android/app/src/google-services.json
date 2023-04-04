@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "298369199288",
+    "project_id": "quickwheels-a2f62",
+    "storage_bucket": "quickwheels-a2f62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298369199288:android:f86fe5ca89df55da91984d",
+        "android_client_info": {
+          "package_name": "com.example.quick_wheels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298369199288-92ksf3v71jjucrqvni1lgsaogumv7ns0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAToYt6u20iEmBiSnBnJz9VyYOCoLl2VJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298369199288-92ksf3v71jjucrqvni1lgsaogumv7ns0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

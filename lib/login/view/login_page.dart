@@ -15,7 +15,7 @@ class Login extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/new.jpg'),
+          image: AssetImage('assets/images/new.jpg'),
           fit: BoxFit.cover,
         ),
       ),
